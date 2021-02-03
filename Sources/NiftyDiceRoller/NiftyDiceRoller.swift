@@ -1,5 +1,5 @@
 //
-//  Nifty-Dice-Roller.swift
+//  NiftyDiceRoller.swift
 //  Nifty Dice Roller
 //
 //  Created by Iiro Alhonen on 3.2.2021.
