@@ -16,5 +16,11 @@
  */
 func roll(dice: Int, diceAmount: Int, modifier: Int?) -> Int {
     let modifier = modifier ?? 0
-    return diceAmount * dice + modifier
+    var calculatedTotal: Int = 0
+    for _ in 1...diceAmount {
+        let roll = Int.random(in: 1...dice)
+        calculatedTotal += roll
+    }
+    calculatedTotal += modifier
+    return calculatedTotal
 }
