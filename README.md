@@ -1,3 +1,3 @@
 # Nifty Dice Roller
 
-A description of this package.
+This is a library for rolling dice. It is a working process. Feature requests and pull requests are welcome.
